@@ -3,19 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% if ${1:condition} %}
- ${2:what to do}
-{% else %}
- ${3:what to do else}
-{% endif %}
+	<string>{% if ${1:condition} %}$2{% endif %}$0
 </string>
 	<key>name</key>
-	<string>if...else...</string>
+	<string>if (inline)</string>
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>lif</string>
+	<string>ifi</string>
 	<key>uuid</key>
-	<string>753F4BAC-089C-4883-B59B-282183760C1A</string>
+	<string>894ECEEE-734B-41E2-A3F2-29E27ACAB954</string>
 </dict>
 </plist>
