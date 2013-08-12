@@ -24,6 +24,35 @@
 	<array>
 		<dict>
 			<key>begin</key>
+			<string>{% comment %}</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>{% endcomment %}</string>
+			<key>name</key>
+			<string>comment.block.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>--</string>
+					<key>name</key>
+					<string>invalid.illegal.bad-comments-or-CDATA.html</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#embedded-code</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>{%+(?!&gt;)=?</string>
 			<key>end</key>
 			<string>%}</string>
@@ -34,6 +63,24 @@
 				<dict>
 					<key>include</key>
 					<string>source.ruby.rails</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>endfor</string>
+					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>endif</string>
+					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>assign</string>
+					<key>name</key>
+					<string>keyword.control</string>
 				</dict>
 			</array>
 		</dict>
