@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% if ${2:condition} %}$TM_SELECTED_TEXT{% endif %}$0</string>
+	<string>{% unless ${2:condition} %}
+ $TM_SELECTED_TEXT
+{% else %}
+ ${3:what to do else}
+{% endunless %}
+</string>
 	<key>keyEquivalent</key>
 	<string>^W</string>
 	<key>name</key>
-	<string>wrap into if (inline)</string>
+	<string>wrap into unless</string>
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>uuid</key>
-	<string>27E844A4-A973-4ED6-80F3-F8ED2591907A</string>
+	<string>0DA0ACE7-B312-4504-A670-60DCC11A450B</string>
 </dict>
 </plist>

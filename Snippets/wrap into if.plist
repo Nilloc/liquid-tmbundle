@@ -10,7 +10,7 @@
 {% endif %}
 </string>
 	<key>keyEquivalent</key>
-	<string>^@w</string>
+	<string>^W</string>
 	<key>name</key>
 	<string>wrap into if</string>
 	<key>scope</key>
