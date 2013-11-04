@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% if ${1:condition} %}
- ${2:what to do}
+	<string>{% if  ${1:condition} %}
+  ${2:what to do}
 {% else %}
- ${3:what to do else}
+  ${3:what to do else}
 {% endif %}
 </string>
 	<key>name</key>
