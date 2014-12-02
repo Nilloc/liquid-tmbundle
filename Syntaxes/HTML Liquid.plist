@@ -26,6 +26,14 @@
 	<string>HTML Liquid</string>
 	<key>patterns</key>
 	<array>
+        <dict>
+            <key>begin</key>
+            <string>{% +#</string>
+            <key>end</key>
+            <string>%}</string>
+            <key>name</key>
+            <string>comment.liquid</string>
+        </dict>
 		<dict>
 			<key>begin</key>
 			<string>{% comment %}</string>
