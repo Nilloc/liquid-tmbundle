@@ -26,14 +26,14 @@
 	<string>HTML Liquid</string>
 	<key>patterns</key>
 	<array>
-        <dict>
-            <key>begin</key>
-            <string>{% +#</string>
-            <key>end</key>
-            <string>%}</string>
-            <key>name</key>
-            <string>comment.liquid</string>
-        </dict>
+		<dict>
+			<key>begin</key>
+			<string>{% +#</string>
+			<key>end</key>
+			<string>%}</string>
+			<key>name</key>
+			<string>comment.liquid</string>
+		</dict>
 		<dict>
 			<key>begin</key>
 			<string>{% comment %}</string>
@@ -78,6 +78,12 @@
 				</dict>
 				<dict>
 					<key>match</key>
+						<string>capture</string>
+						<key>name</key>
+						<string>keyword.control</string>
+					</dict>
+					<dict>
+						<key>match</key>
 					<string>endfor</string>
 					<key>name</key>
 					<string>keyword.control</string>
@@ -90,6 +96,30 @@
 				</dict>
 				<dict>
 					<key>match</key>
+						<string>endcase</string>
+						<key>name</key>
+						<string>keyword.control</string>
+					</dict>
+					<dict>
+						<key>match</key>
+						<string>endcapture</string>
+						<key>name</key>
+						<string>keyword.control</string>
+					</dict>
+					<dict>
+						<key>match</key>
+						<string>endassign</string>
+						<key>name</key>
+						<string>keyword.control</string>
+					</dict>
+					<dict>
+						<key>match</key>
+						<string>endunless</string>
+						<key>name</key>
+						<string>keyword.control</string>
+					</dict>
+					<dict>
+						<key>match</key>
 					<string>assign</string>
 					<key>name</key>
 					<string>keyword.control</string>
