@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>lcy</string>
+	<string>cycle</string>
 	<key>uuid</key>
 	<string>EA8CD949-5997-4968-953F-5EE307EA06B9</string>
 </dict>

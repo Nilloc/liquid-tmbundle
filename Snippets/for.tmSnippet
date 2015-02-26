@@ -11,7 +11,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>lfor</string>
+	<string>for</string>
 	<key>uuid</key>
 	<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
 </dict>

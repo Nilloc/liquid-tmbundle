@@ -14,7 +14,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>lca</string>
+	<string>case</string>
 	<key>uuid</key>
 	<string>BB5DB369-CE19-4420-896E-2D782306F067</string>
 </dict>

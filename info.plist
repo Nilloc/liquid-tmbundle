@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
 	<string>Liquid for Shopify</string>
 	<key>ordering</key>
 	<array>
+		<string>C0D8F140-68A0-4B47-B7E6-E0E6070CAC0B</string>
+		<string>A5B65D59-32C3-4959-8CE1-81B99CD19B65</string>
+		<string>894ECEEE-734B-41E2-A3F2-29E27ACAB954</string>
 		<string>753F4BAC-089C-4883-B59B-282183760C1A</string>
-		<string>205B3C48-F487-4499-AEE6-5E9E430B86CD</string>
 		<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
 		<string>EA8CD949-5997-4968-953F-5EE307EA06B9</string>
-		<string>392C7256-FFFF-4F81-B6FE-324D76BBD000</string>
-		<string>BB5DB369-CE19-4420-896E-2D782306F067</string>
 		<string>AE5AE663-A677-4447-A24B-C33855531D9F</string>
+		<string>BB5DB369-CE19-4420-896E-2D782306F067</string>
 		<string>1CDBA235-2158-49CB-BE6C-253BB610D04D</string>
+		<string>392C7256-FFFF-4F81-B6FE-324D76BBD000</string>
+		<string>23A135DD-2CCA-4D84-8C14-CD60E5C05D0F</string>
+		<string>E4CAE599-7B4D-4FA3-93E0-12646734F622</string>
+		<string>205B3C48-F487-4499-AEE6-5E9E430B86CD</string>
+		<string>27E844A4-A973-4ED6-80F3-F8ED2591907A</string>
+		<string>0DA0ACE7-B312-4504-A670-60DCC11A450B</string>
+		<string>9FA5B898-9D99-4166-A5BD-91BBA6EFA16F</string>
 		<string>675E0890-CA4B-404D-8000-15BE6FAE9998</string>
+		<string>C27B0259-5552-43DF-B609-11EE24D1FF39</string>
 	</array>
 	<key>uuid</key>
-	<string>6D8CA567-CAB2-41D7-A555-8106D14111E1</string>
+	<string>7993956C-5C8C-43DA-8843-AB9068334FD0</string>
 </dict>
 </plist>
