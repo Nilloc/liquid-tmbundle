@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>content_for_layout</string>
 	<key>scope</key>
-	<string>text.html.liquid</string>
+	<string>text.html.liquid, text.css.liquid</string>
 	<key>tabTrigger</key>
 	<string>lcfl</string>
 	<key>uuid</key>

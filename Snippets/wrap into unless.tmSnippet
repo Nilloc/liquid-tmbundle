@@ -14,7 +14,7 @@
 	<key>name</key>
 	<string>wrap into unless</string>
 	<key>scope</key>
-	<string>text.html.liquid</string>
+	<string>text.html.liquid, text.css.liquid</string>
 	<key>uuid</key>
 	<string>0DA0ACE7-B312-4504-A670-60DCC11A450B</string>
 </dict>

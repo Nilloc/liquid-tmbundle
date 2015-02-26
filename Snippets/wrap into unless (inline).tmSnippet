@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>wrap into unless (inline)</string>
 	<key>scope</key>
-	<string>text.html.liquid</string>
+	<string>text.html.liquid, text.css.liquid</string>
 	<key>uuid</key>
 	<string>9FA5B898-9D99-4166-A5BD-91BBA6EFA16F</string>
 </dict>

@@ -12,7 +12,7 @@
 	<key>name</key>
 	<string>if...else...</string>
 	<key>scope</key>
-	<string>text.html.liquid</string>
+	<string>text.html.liquid, text.css.liquid</string>
 	<key>tabTrigger</key>
 	<string>ifelse</string>
 	<key>uuid</key>

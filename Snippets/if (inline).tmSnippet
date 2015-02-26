@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>if (inline)</string>
 	<key>scope</key>
-	<string>text.html.liquid</string>
+	<string>text.html.liquid, text.css.liquid</string>
 	<key>tabTrigger</key>
 	<string>if</string>
 	<key>uuid</key>
