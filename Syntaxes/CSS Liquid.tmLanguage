@@ -68,6 +68,12 @@
 				</dict>
 				<dict>
 					<key>match</key>
+					<string>elseif</string>
+					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+				<dict>
+					<key>match</key>
 					<string>endfor</string>
 					<key>name</key>
 					<string>keyword.control</string>
