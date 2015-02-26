@@ -8,14 +8,14 @@
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
-        (\{%\s*(if|else|elseif|ef|elsef|case|comment|capture)\s*.*?\s*%\}
+        (\{%\s*(if|else|elseif|ef|elsef|case|comment|capture|for)\s*.*?\s*%\}
 		|&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\b.*?&gt;
 		|&lt;!--(?!.*--&gt;)
 		|\{\s*($|\?&gt;\s*$|//|/\*(.*\*/\s*$|(?!.*?\*/)))
 		)</string>
 	<key>foldingStopMarker</key>
 	<string>(?x)
-        (\{%\s*end(if|ef|case|comment|capture)\s*%\}
+        (\{%\s*end(if|ef|case|comment|capture|for)\s*%\}
 		|&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)&gt;
 		|^\s*--&gt;
 		|(^|\s)\}
