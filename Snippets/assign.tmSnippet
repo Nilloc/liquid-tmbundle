@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>las</string>
+	<string>assign</string>
 	<key>uuid</key>
 	<string>C0D8F140-68A0-4B47-B7E6-E0E6070CAC0B</string>
 </dict>

@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>unli</string>
+	<string>unless</string>
 	<key>uuid</key>
 	<string>23A135DD-2CCA-4D84-8C14-CD60E5C05D0F</string>
 </dict>

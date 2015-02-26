@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>text.html.liquid</string>
 	<key>tabTrigger</key>
-	<string>lcap</string>
+	<string>capture</string>
 	<key>uuid</key>
 	<string>A5B65D59-32C3-4959-8CE1-81B99CD19B65</string>
 </dict>
